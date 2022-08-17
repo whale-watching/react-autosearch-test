@@ -1,0 +1,39 @@
+/**
+ * This is the central home page
+ *
+ */
+section#good {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+    height: 300px;
+    background-color: black;
+    box-shadow: 10px 5px 5px turquoise;
+    margin-top: 30px;
+    div {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .name {
+        font-size: x-large;
+        font-weight: bold;
+        color: aqua;
+    }
+    .about {
+        width: 500px;
+    }
+    .price {
+        color: red;
+        font-size: larger;
+    }
+    .tag {
+        div {
+            border: solid white 1px;
+            padding: 5px;
+            border-radius: 3px;
+        }
+    }
+}
